@@ -33,7 +33,7 @@ const setup = require('jest-setup-glob')
 
 setup({
   '**.browser.test.js': './jest.setup.browser.js',
-  '**.test.js': './jest.setup.js',
+  '**.test.js': './jest.setup.node.js',
 })
 ```
 
