@@ -9,6 +9,9 @@
     "test": "jest",
     "prepublishOnly": "yarn test"
   },
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "micromatch": "^4.0.4"
   },
